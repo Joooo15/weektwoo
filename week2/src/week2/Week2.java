@@ -19,7 +19,6 @@ public class Week2 {
         int hours;
         double payrate;
        
-        
         System.out.println("Enter the hours as a intger ==> ");
         hours = josh.nextInt();
         
@@ -28,8 +27,8 @@ public class Week2 {
         
       //  double payment = hours*payrate;
         
-    
       System.out.println("the payment is ==> " + CalcPay(hours,payrate));
+      
 
     }
     
@@ -41,6 +40,4 @@ public class Week2 {
      return (40*pr)+(h-40)*(pr*1.5); 
      }
     }
-    
-    
 }
