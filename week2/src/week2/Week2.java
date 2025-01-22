@@ -29,7 +29,6 @@ public class Week2 {
         
       System.out.println("the payment is ==> " + CalcPay(hours,payrate));
       
-
     }
     
     static double CalcPay(int h, double pr) {
